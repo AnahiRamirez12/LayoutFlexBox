@@ -1,0 +1,54 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color:rgb(37, 0, 37);
+    padding: 20px;
+    width: 100%;
+    position: fixed;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    background-color:rgb(105, 2, 105);
+    padding: 20px;
+    
+}
+nav a{
+    color:purple;
+    padding: 14px 20px;
+}
+.cuerpo{
+    display: flex;
+    flex-wrap: wrap;
+}
+aside{
+    background-color:rgb(153, 0, 153);
+    padding: 20px;
+    flex: 80%;
+    height: 475px;
+    overflow: scroll;
+}
+article{
+    background-color: rgb(161, 90, 161);
+    padding: 15%;
+    height: 10px;
+    overflow: scroll;
+    text-align: center;
+}
+section{
+    flex: 10%;
+    width: 20px;
+    height: 475px;
+    background-color:rgb(190, 4, 190);
+    overflow: scroll;
+}
+footer{
+    padding: 20px;
+    background-color:rgb(231, 5, 231);
+}
+
